@@ -1,0 +1,254 @@
+.tituloziel {
+    text-align: center;
+
+} 
+
+.tituloziel--modificado {
+    color: black;
+}
+
+.maincaja h3 {
+    color:black;
+}
+
+.maincaja {
+    background-color: blanchedalmond;
+}
+
+.menu {
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+.menu ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+list-style: none; display: inline-block;
+}
+
+.menu ul li a {
+    display: inline-block; padding: 12px 26px;
+}
+
+a {
+    text-decoration: none; color: black;
+}
+.gridlogo {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.imagencentrada {
+    margin: auto;
+    display: grid
+}
+
+.menu ul li :hover {
+    background-color: white
+}
+
+a :hover{
+    background-color: black;
+}
+
+.siguenos ul {
+    position: relative;
+display: inline-block; left: 50px;
+}
+
+.gridfooter {
+    background-color: blanchedalmond;
+    grid-template-columns: 200px 250px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedor{
+    background-color: rgb(213, 202, 202);
+}
+
+.gridquienessomos{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(550px,1fr));
+   grid-template-rows: minmax(310px,auto);
+   align-content: center;
+
+}
+
+.pasoscompra ol {
+    align-self: center;
+left: 200px; text-transform: uppercase;
+} 
+.pasoscompra{
+    background-color: #F9DFC8;
+}
+.gridproductos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px,1fr));
+    grid-template-rows: minmax(310px,auto);
+    
+    gap: 100px;
+    justify-items: center;
+    justify-content: space-around;
+}
+.grid--producto{
+    height: 65%;
+    width: 115%;
+} */
+.imagenquienessomos{
+    height: 100%;
+    width: 80%;
+}
+.gridheader {
+    display: grid;
+    justify-items: center;
+    margin: 20px;
+}
+.icono img{
+    height: 150%;
+    width: 50%;
+}
+.siguenos {
+    justify-items: center;
+}
+@media all and (max-width: 920px) {
+    .maincaja {
+        width: 100%;
+}
+}
+@media all and (max-width: 500px) {
+
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
+}
+/*---------PRODUCTOS--------- */
+.conte{
+    height: 550px;
+    width: 400px;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .pastademani img{
+    height: 330px;
+    width: 300px;
+}
+.conte .pastademani{
+    background-color: #f9d29d;
+background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+
+}
+
+.conte .listaproductos img{
+    height: 330px;
+    width: 300px;
+}
+.conte .listaproductos{
+    background-color: #f9d29d;
+background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+
+}
+
+.conte .mix img{
+    height: 330px;
+    width: 300px;
+}
+.conte .mix{
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+    
+}
+
+.card img:hover{
+    
+    /* transform: translateY(-10px); */
+    animation: aparecer 2s
+    
+}
+
+.conte .card{
+    transition: height 12s , width 20s;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px,1fr));
+    grid-template-rows: minmax(350px,auto);
+    
+    justify-items: center;
+    gap: 100px;
+    justify-content: space-around;
+
+
+}
+
+
+
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    margin: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+
+/* ---------FIN PRODUCTOS-------- */
+.boton-info{
+    display: flex;
+    justify-content: center;
+}
+.btn-primary:hover{
+    background-color: #d6af7e;
+    border-color:#d6af7e;
+    color: #6a7ccb;
+
+}
+
+.btn-primary{
+    background-color: #f9d29d;
+    border-color: #f9d29d;
+    color: black;
+}
+
+.btn-primary:focus {
+    background-color: #d6af7e;
+    border-color:#d6af7e;
+    color: #f4f6ff; 
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+}
+
+.btn-secondary{
+    background-color: #a27947;
+    border-color: #a27947;
+    color: black;
+}
