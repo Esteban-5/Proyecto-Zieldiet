@@ -1,14 +1,14 @@
 .tituloziel {
     text-align: center;
 
-} 
+}
 
 .tituloziel--modificado {
     color: black;
 }
 
 .maincaja h3 {
-    color:black;
+    color: black;
 }
 
 .maincaja {
@@ -22,21 +22,26 @@
 
 .menu ul li {
     font-family: Georgia, 'Times New Roman', Times, serif;
-list-style: none; display: inline-block;
+    list-style: none;
+    display: inline-block;
 }
 
 .menu ul li a {
-    display: inline-block; padding: 12px 26px;
+    display: inline-block;
+    padding: 12px 26px;
 }
 
 a {
-    text-decoration: none; color: black;
+    text-decoration: none;
+    color: black;
 }
+
 .gridlogo {
     display: grid;
     justify-content: center;
     justify-items: center;
 }
+
 .imagencentrada {
     margin: auto;
     display: grid
@@ -46,16 +51,34 @@ a {
     background-color: white
 }
 
-a :hover{
+a :hover {
     background-color: black;
 }
 
 .siguenos ul {
     position: relative;
-display: inline-block; left: 50px;
-}
+    display: inline-block;
+    left: 50px;
 
-.gridfooter {
+}
+ .siguenos a:link{
+     color: blue;
+ }
+ .siguenos a:visited{
+     color: purple;
+ }
+ .siguenos a:hover {
+     background-color: yellow;
+ }
+ .siguenos a:active{
+     color: lime;
+ }
+
+
+
+
+
+ .gridfooter {
     background-color: blanchedalmond;
     grid-template-columns: 200px 250px;
     display: grid;
@@ -64,136 +87,150 @@ display: inline-block; left: 50px;
 
 }
 
-.contenedor{
+.contenedor {
     background-color: rgb(213, 202, 202);
 }
 
-.gridquienessomos{
-   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(550px,1fr));
-   grid-template-rows: minmax(310px,auto);
-   align-content: center;
+.gridquienessomos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    grid-template-rows: minmax(310px, auto);
+    align-content: center;
 
 }
 
 .pasoscompra ol {
     align-self: center;
-left: 200px; text-transform: uppercase;
-} 
-.pasoscompra{
+    left: 200px;
+    text-transform: uppercase;
+}
+
+.pasoscompra {
     background-color: #F9DFC8;
 }
-.gridproductos{
+
+.gridproductos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(420px,1fr));
-    grid-template-rows: minmax(310px,auto);
-    
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-template-rows: minmax(310px, auto);
+
     gap: 100px;
     justify-items: center;
     justify-content: space-around;
 }
-.grid--producto{
+
+.grid--producto {
     height: 65%;
     width: 115%;
-} */
-.imagenquienessomos{
+}
+
+*/ .imagenquienessomos {
     height: 100%;
     width: 80%;
 }
+
 .gridheader {
     display: grid;
     justify-items: center;
     margin: 20px;
 }
-.icono img{
+
+.icono img {
     height: 150%;
     width: 50%;
 }
+
 .siguenos {
     justify-items: center;
 }
+
 @media all and (max-width: 920px) {
     .maincaja {
         width: 100%;
+    }
 }
-}
-@media all and (max-width: 500px) {
 
-}
+@media all and (max-width: 500px) {}
 
 @keyframes aparecer {
     0% {
         opacity: 0;
 
     }
-    
-    100%{
+
+    100% {
         opacity: 1;
     }
-    
+
 }
+
 /*---------PRODUCTOS--------- */
-.conte{
+.conte {
     height: 550px;
     width: 400px;
-    box-shadow:0 0 7px #111 ;
+    box-shadow: 0 0 7px #111;
     margin: 30px 30px;
 }
-.conte .card{
+
+.conte .card {
     height: 200px;
     width: 100%;
     margin-bottom: 170px;
 }
-.card img{
+
+.card img {
     margin: auto;
     display: block;
 }
-.conte .pastademani img{
+
+.conte .pastademani img {
     height: 330px;
     width: 300px;
 }
-.conte .pastademani{
-    background-color: #f9d29d;
-background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
 
-}
-
-.conte .listaproductos img{
-    height: 330px;
-    width: 300px;
-}
-.conte .listaproductos{
-    background-color: #f9d29d;
-background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
-
-}
-
-.conte .mix img{
-    height: 330px;
-    width: 300px;
-}
-.conte .mix{
+.conte .pastademani {
     background-color: #f9d29d;
     background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
-    
+
 }
 
-.card img:hover{
-    
+.conte .listaproductos img {
+    height: 330px;
+    width: 300px;
+}
+
+.conte .listaproductos {
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+
+}
+
+.conte .mix img {
+    height: 330px;
+    width: 300px;
+}
+
+.conte .mix {
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+
+}
+
+.card img:hover {
+
     /* transform: translateY(-10px); */
     animation: aparecer 2s
-    
 }
 
-.conte .card{
-    transition: height 12s , width 20s;
+.conte .card {
+    transition: height 12s, width 20s;
 }
 
-.boxes{
+.boxes {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(360px,1fr));
-    grid-template-rows: minmax(350px,auto);
-    
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-template-rows: minmax(350px, auto);
+
     justify-items: center;
     gap: 100px;
     justify-content: space-around;
@@ -203,18 +240,20 @@ background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
 
 
 
-.informacion{
+.informacion {
     height: 80px;
     width: 100%;
 }
-.informacion h1{
+
+.informacion h1 {
     font-family: sans-serif;
     font-size: 1.2em;
     text-align: center;
     color: #333;
     margin-bottom: -10px;
 }
-.informacion p{
+
+.informacion p {
     margin: 15px;
     text-align: center;
     font-family: sans-serif;
@@ -223,18 +262,19 @@ background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
 }
 
 /* ---------FIN PRODUCTOS-------- */
-.boton-info{
+.boton-info {
     display: flex;
     justify-content: center;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #d6af7e;
-    border-color:#d6af7e;
+    border-color: #d6af7e;
     color: #6a7ccb;
 
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #f9d29d;
     border-color: #f9d29d;
     color: black;
@@ -242,12 +282,12 @@ background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
 
 .btn-primary:focus {
     background-color: #d6af7e;
-    border-color:#d6af7e;
-    color: #f4f6ff; 
+    border-color: #d6af7e;
+    color: #f4f6ff;
     box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: #a27947;
     border-color: #a27947;
     color: black;
