@@ -1,10 +1,14 @@
-.tituloziel {
-    text-align: center;
+.tituloziel, h2 {
+    
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .tituloziel--modificado {
     color: black;
+    text-align: center;
 }
 
 .maincaja h3 {
@@ -16,10 +20,12 @@
 }
 
 .menu {
-    background-color: blanchedalmond;
     width: 100%;
 }
+.menu ul{
+    background-color: blanchedalmond;
 
+}
 .menu ul li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style: none;

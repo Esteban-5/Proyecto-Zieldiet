@@ -1,0 +1,19 @@
+{
+  "name": "zieldiet-estebanperezromero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esteban-5/Proyecto-Zieldiet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esteban-5/Proyecto-Zieldiet/issues"
+  },
+  "homepage": "https://github.com/Esteban-5/Proyecto-Zieldiet#readme"
+}
