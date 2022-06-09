@@ -1,0 +1,35 @@
+$letra: arial;
+$posicion: center;
+
+
+.siguenos {
+    justify-items: $posicion;
+    ul {
+        position: relative;
+    display: inline-block;
+    left: 50px;
+     }
+     a {
+        &:link{
+            color: blue;
+        }
+        &:hover{
+            background-color: yellow;
+        }
+        &:visited{
+            color: purple;
+        }
+        &:active{
+            color: lime;
+
+        }
+     }
+}
+ .gridfooter {
+    background-color: blanchedalmond;
+    grid-template-columns: 200px 250px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: $letra;
+}
