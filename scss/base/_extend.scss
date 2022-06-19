@@ -1,0 +1,38 @@
+%tipodeletra {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+%backgcartas {
+    background-color: #f9d29d;
+  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+}
+%backgroundpage {
+    background-color: blanchedalmond
+}
+
+
+
+
+.menu ul li {
+    @extend %tipodeletra;
+    display: inline-block;
+    list-style: none;
+}
+
+.conte .pastademani {
+    @extend %backgcartas
+}
+.conte .listaproductos {
+    @extend %backgcartas
+}
+.conte .mix {
+    @extend %backgcartas
+}
+.gridfooter {
+    @extend %backgroundpage
+}
+.maincaja {
+    @extend %backgroundpage
+}
+.menu ul {
+    @extend %backgroundpage
+}

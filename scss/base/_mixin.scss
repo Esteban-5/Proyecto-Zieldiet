@@ -1,0 +1,16 @@
+$display: inline-block;
+$clasif: none;
+
+
+
+@mixin menu ($display,$clasif,$fuentes) {
+    display: $display;
+    list-style-type: $clasif;
+    font-family: map-get($fuentes, fuente-header);
+
+}
+
+.menu ul li {
+    @include menu ($display,$clasif,$fuentes)
+
+}

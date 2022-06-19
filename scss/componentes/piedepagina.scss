@@ -1,7 +1,6 @@
 $letra: arial;
 $posicion: center;
 
-
 .siguenos {
     justify-items: $posicion;
     ul {
@@ -26,7 +25,6 @@ $posicion: center;
      }
 }
  .gridfooter {
-    background-color: blanchedalmond;
     grid-template-columns: 200px 250px;
     display: grid;
     align-items: center;

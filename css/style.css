@@ -1,3 +1,32 @@
+.siguenos {
+  justify-items: center;
+}
+.siguenos ul {
+  position: relative;
+  display: inline-block;
+  left: 50px;
+}
+.siguenos a:link {
+  color: blue;
+}
+.siguenos a:hover {
+  background-color: yellow;
+}
+.siguenos a:visited {
+  color: purple;
+}
+.siguenos a:active {
+  color: lime;
+}
+
+.gridfooter {
+  grid-template-columns: 200px 250px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+}
+
 .tituloziel, h2 {
   font-size: 2em;
   font-weight: bold;
@@ -13,22 +42,8 @@
   color: black;
 }
 
-.maincaja {
-  background-color: blanchedalmond;
-}
-
 .menu {
   width: 100%;
-}
-
-.menu ul {
-  background-color: blanchedalmond;
-}
-
-.menu ul li {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  list-style: none;
-  display: inline-block;
 }
 
 .menu ul li a {
@@ -148,29 +163,14 @@ a :hover {
   width: 300px;
 }
 
-.conte .pastademani {
-  background-color: #f9d29d;
-  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
-}
-
 .conte .listaproductos img {
   height: 330px;
   width: 300px;
 }
 
-.conte .listaproductos {
-  background-color: #f9d29d;
-  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
-}
-
 .conte .mix img {
   height: 330px;
   width: 300px;
-}
-
-.conte .mix {
-  background-color: #f9d29d;
-  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
 }
 
 .card img:hover {
@@ -243,34 +243,28 @@ a :hover {
   color: black;
 }
 
-.siguenos {
-  justify-items: center;
-}
-.siguenos ul {
-  position: relative;
-  display: inline-block;
-  left: 50px;
-}
-.siguenos a:link {
-  color: blue;
-}
-.siguenos a:hover {
-  background-color: yellow;
-}
-.siguenos a:visited {
-  color: purple;
-}
-.siguenos a:active {
-  color: lime;
+.menu ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.gridfooter {
+.conte .mix, .conte .listaproductos, .conte .pastademani {
+  background-color: #f9d29d;
+  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+}
+
+.menu ul, .maincaja, .gridfooter {
   background-color: blanchedalmond;
-  grid-template-columns: 200px 250px;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  font-family: arial;
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: "Georgia, " Times New Roman ", Times, serif;";
 }
 
 /*# sourceMappingURL=style.css.map */
