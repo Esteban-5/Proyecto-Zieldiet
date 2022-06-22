@@ -8,7 +8,10 @@
 %backgroundpage {
     background-color: blanchedalmond
 }
-
+%backgroundbtn-primary {
+    background-color: #d6af7e;
+    border-color: #d6af7e;
+}
 
 
 
@@ -19,20 +22,30 @@
 }
 
 .conte .pastademani {
-    @extend %backgcartas
+    @extend %backgcartas;
 }
 .conte .listaproductos {
-    @extend %backgcartas
+    @extend %backgcartas;
 }
 .conte .mix {
-    @extend %backgcartas
+    @extend %backgcartas;
 }
 .gridfooter {
-    @extend %backgroundpage
+    @extend %backgroundpage;
 }
 .maincaja {
-    @extend %backgroundpage
+    @extend %backgroundpage;
 }
 .menu ul {
-    @extend %backgroundpage
+    @extend %backgroundpage;
+}
+.btn-primary:hover {
+    @extend %backgroundbtn-primary;
+    color:#6a7ccb;
+    
+}
+.btn-primary:focus{
+    @extend %backgroundbtn-primary;
+    color: #f4f6ff;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
 }
