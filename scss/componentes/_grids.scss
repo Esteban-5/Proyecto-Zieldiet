@@ -1,0 +1,39 @@
+.gridquienessomos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    grid-template-rows: minmax(310px, auto);
+    align-content: center;
+  }
+  .gridproductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-template-rows: minmax(310px, auto);
+    gap: 100px;
+    justify-items: center;
+    justify-content: space-around;
+  }
+.gridheader {
+    display: grid;
+    justify-items: center;
+    margin: 20px;
+}
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-template-rows: minmax(350px, auto);
+    justify-items: center;
+    gap: 100px;
+    justify-content: space-around;
+  }
+  .gridElegiTusProductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill), minmax(45%,45%);
+    grid-template-rows: minmax(400px, auto);
+    gap: 5%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5%;
+  
+  }

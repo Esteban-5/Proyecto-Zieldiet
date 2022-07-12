@@ -1,0 +1,66 @@
+.conte {
+    height: 550px;
+    width: 400px;
+    box-shadow: 0 0 7px #111;
+    margin: 30px 30px;
+
+    .card {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 170px;
+        transition: height 12s, width 20s;
+    }
+
+    img {
+        margin: auto;
+        display: block;
+
+        &:hover {
+            animation: aparecer 2s;
+        }
+
+        .pastademani,
+        .listaproductos,
+        .mix {
+
+            img {
+
+                height: 330px;
+                width: 300px;
+            }
+
+
+        }
+
+
+
+
+
+
+
+    }
+
+    img {
+        margin: auto;
+        display: block;
+
+        &:hover {
+            animation: aparecer 2s;
+        }
+
+
+    }
+}
+
+.pastademani,
+.listaproductos,
+.mix {
+
+    img {
+
+        height: 330px;
+        width: 300px;
+    }
+
+
+}
